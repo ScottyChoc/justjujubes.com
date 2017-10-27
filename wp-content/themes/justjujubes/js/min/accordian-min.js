@@ -1,0 +1,1 @@
+jQuery(function($){var i=$(this);i.find("header").click(function(){"block"==$(this).siblings("section").css("display")?i.find("section").slideUp(150):(i.find("section").slideUp(150),$(this).siblings("section").slideDown(150))})}),$("#accord1").accordian();

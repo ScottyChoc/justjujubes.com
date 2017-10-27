@@ -1,0 +1,28 @@
+/* Sidebar
+---------------------------------------------------------------------------------------------------- */
+
+.sidebar {
+  float: right;
+  width: 360px;
+}
+
+.sidebar-content .sidebar {
+  float: left;
+}
+
+.sidebar {
+  p:last-child {
+    margin-bottom: 0;
+  }
+  li {
+    list-style-type: none;
+    margin-bottom: 6px;
+    word-wrap: break-word;
+  }
+  ul > li:last-child {
+    margin-bottom: 0;
+  }
+  .widget {
+    margin-bottom: 40px;
+  }
+}

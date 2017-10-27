@@ -1,0 +1,54 @@
+/* Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.widget {
+  word-wrap: break-word;
+  ol > li {
+    list-style-position: inside;
+    list-style-type: decimal;
+    padding-left: 20px;
+    text-indent: -20px;
+  }
+  ul li {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  li li {
+    border: none;
+    margin: 0 0 0 30px;
+    padding: 0;
+  }
+}
+
+.widget_calendar {
+  table {
+    width: 100%;
+  }
+  td, th {
+    text-align: center;
+  }
+}
+
+/* Featured Content
+--------------------------------------------- */
+
+.featured-content .entry-title {
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+
+/* Simple Social Icons
+--------------------------------------------- */
+
+.altitude-home .content .simple-social-icons {
+  margin-top: 40px;
+  ul li {
+    margin: 0 20px !important;
+    a {
+      padding: 30px;
+      &:focus, &:hover {
+        padding: 30px;
+      }
+    }
+  }
+}

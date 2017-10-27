@@ -1,0 +1,87 @@
+/*
+	Theme Name: Just Jujubes
+	Author: Scott Loveless
+	Author URI: http://scott.loveless.org/
+
+	Version: 1.1.2
+
+	Template: genesis
+	Template Version: 2.1
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+
+	Text Domain: just-jujubes
+*/
+
+/* Table of Contents
+	- HTML5 Reset
+		- Baseline Normalize
+		- Box Sizing
+		- Float Clearing
+	- Defaults
+		- Typographical Elements
+		- Headings
+		- Objects
+		- Gallery
+		- Forms
+		- Buttons
+		- Tables
+		- Screen Reader Text
+	- Structure and Layout
+		- Site Containers
+		- Column Widths and Positions
+		- Column Classes
+	- Common Classes
+		- Avatar
+		- Genesis
+		- Search Form
+		- Titles
+		- WordPress
+	- Widgets
+	- Skip Links
+	- Site Header
+		- Title Area
+		- Widget Area
+	- Site Navigation
+		- Primary Navigation
+		- Secondary Navigation
+		- Footer Navigation
+		- Responsive Menu
+	- Content Area
+		- Front Page
+		- Dashicons
+		- Flexible Widgets
+		- Content
+		- Entries
+		- Entry Meta
+		- After Entry
+		- Pagination
+		- Content Boxes
+		- Comments
+	- Sidebar
+	- Site Footer
+	- Media Queries
+		- Max-width: 1280px
+		- Max-width: 1200px
+		- Max-width: 1023px
+		- Max-width: 800px
+		- Max-width: 480px
+*/
+
+@import  "partials/_variables.scss";
+@import  "partials/_mixins.scss";
+
+@import  "partials/_reset.scss";
+@import  "partials/_defaults.scss";
+@import  "partials/_structure-layout.scss";
+@import  "partials/_common-classes.scss";
+@import  "partials/_widgets.scss";
+@import  "partials/_skip-links.scss";
+@import  "partials/_site-header.scss";
+@import  "partials/_site-navigation.scss";
+@import  "partials/_content-area.scss";
+@import  "partials/_sidebars.scss";
+@import  "partials/_site-footer.scss";
+@import  "partials/_media-queries.scss";
+@import  "partials/_wp-store-locator.scss";
